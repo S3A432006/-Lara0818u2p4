@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+@extends('layouts.master')
 
 <head>
 
@@ -66,6 +67,9 @@
         </div>
         <!-- /.container -->
     </nav>
+    @section('title', 'Clean Blog - About')
+
+    @section('content')
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
@@ -93,7 +97,7 @@
             </div>
         </div>
     </div>
-
+    @endsection
     <hr>
 
     <!-- Footer -->
