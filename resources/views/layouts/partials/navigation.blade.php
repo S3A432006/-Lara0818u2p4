@@ -14,16 +14,16 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{route('posts.index')}}">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="{{route('posts.about')}}">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li>
-                    <a href="{{route('posts.show')}}">Sample Post</a>
+                    <a href="post.html">Sample Post</a>
                 </li>
                 <li>
-                    <a href="{{route('posts.contact')}}">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
